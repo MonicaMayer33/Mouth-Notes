@@ -7,4 +7,3 @@ title: "Welcome to Dental Atlas"
 
 From exploring different kinds of toothpaste and mouthwash to sharing my dental school notes.  
 This is where I will do my best to track new discoveries and uncover misconceptions!
-
