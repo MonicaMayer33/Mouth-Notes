@@ -3,7 +3,7 @@ layout: home
 title: "Welcome to Dental Atlas"
 ---
 
-# This page will serve as a personal journal and a resource for those passionate about their oral health.
+This page will serve as a personal journal and a resource for those passionate about their oral health.
 
 From exploring different kinds of toothpaste and mouthwash to sharing my dental school notes.  
 This is where I will do my best to track new discoveries and uncover misconceptions!
