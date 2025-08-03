@@ -1,16 +1,20 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title | default: site.title }}</title>
   <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
     .navbar {
-      background-color: #30F2D2;
+      background-color: #30F2D2; /* Your custom color */
       overflow: hidden;
       padding: 0.8em;
     }
+
     .navbar a {
       float: left;
       color: #ecf0f1;
@@ -19,59 +23,18 @@
       text-decoration: none;
       font-size: 1em;
     }
+
     .navbar a:hover {
       background-color: #34495e;
       color: #fff;
     }
-  </body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-.navbar {
-  background-color: #2c3e50;
-  overflow: hidden;
-  padding: 0.8em;
-}
-
-.navbar a {
-  float: left;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  font-size: 1em;
-}
-
-.navbar a:hover {
-  background-color: #34495e;
-}
->
+  </style>
 </head>
-<<body>
-  <nav class="navbar">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about' | relative_url }}">About</a>
-    <a href="{{ '/blog' | relative_url }}">Blog</a>
-    <a href="{{ '/contact' | relative_url }}">Contact</a>
-  </nav>
-
-  <main>
-    {{ content }}
-  </main>
-</body>
->
-
-<div class="navbar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/posts">Blog</a>
-  <a href="/contact">Contact</a>
-</div>
-
-<div class="content">
-  {{ content }}
-</div>
-
+<body>
+  <div class="navbar">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/blog">Blog</a>
+  </div>
 </body>
 </html>
