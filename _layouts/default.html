@@ -9,33 +9,30 @@
       font-family: Arial, sans-serif;
     }
 
-    .navbar {
-      background-color: #30F2D2;
-      overflow: hidden;
-      padding: 0.8em;
-      /* Example pattern: diagonal stripes using linear-gradient */
-      background-image: repeating-linear-gradient(
-        45deg,
-        #30F2D2,
-        #30F2D2 15px,
-        #26c9b1 15px,
-        #26c9b1 30px
-      );
+<head>
+  ...
+  <style>
+    nav {
+      background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+      padding: 1em;
     }
-
-    .navbar a {
-      float: left;
-      color: #ecf0f1;
-      text-align: center;
-      padding: 0.5em 1em;
+    nav a {
+      background: white;
+      color: #333;
+      padding: 0.5em 1.5em;
+      margin: 0 0.5em;
+      border-radius: 2em;
       text-decoration: none;
-      font-size: 1em;
+      font-weight: bold;
+      transition: background 0.2s;
     }
-
-    .navbar a:hover {
-      background-color: #34495e;
-      color: #fff;
+    nav a:hover {
+      background: #a1c4fd;
+      color: white;
     }
+  </style>
+  ...
+</head>
   </style>
 </head>
 <body>
