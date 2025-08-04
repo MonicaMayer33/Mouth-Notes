@@ -13,13 +13,13 @@
       background: linear-gradient(90deg, #30F2D2 0%, #26c9b1 100%);
       padding: 1em;
       overflow: hidden;
-      font-family: 'Comfortaa', monospace; /* navbar font */
+      font-family: 'Courier New', monospace; /* navbar font */
     }
 
     .navbar a {
       background: white;
       color: #333;
-      padding: 0.3em 1em;
+      padding: 0.3em 1em;      /* smaller buttons */
       margin: 0 0.4em;
       border-radius: 2em;
       text-decoration: none;
@@ -27,7 +27,7 @@
       transition: background 0.2s;
       float: left;
       text-align: center;
-      font-size: 0.85em;
+      font-size: 0.85em;       /* smaller text */
     }
 
     .navbar a:hover {
@@ -35,9 +35,13 @@
       color: white;
     }
 
+    .right-nav {
+      float: right;
+    }
+
     .center-text {
       text-align: center;
-      font-family: 'Comfortaa', serif; /* center text font */
+      font-family: 'Georgia', serif; /* center text font */
     }
   </style>
 </head>
@@ -47,6 +51,7 @@
     <a href="/Recommendations">Recommendations</a>
     <a href="/Research">Research</a>
     <a href="/Notes">Notes</a>
+    <a href="/Atlas" class="right-nav">Dental Atlas</a>
   </div>
   {{ content }}
 </body>
