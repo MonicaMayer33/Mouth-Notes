@@ -10,9 +10,17 @@
     }
 
     .navbar {
-      background-color: #30F2D2; /* Your custom color */
+      background-color: #30F2D2;
       overflow: hidden;
       padding: 0.8em;
+      /* Example pattern: diagonal stripes using linear-gradient */
+      background-image: repeating-linear-gradient(
+        45deg,
+        #30F2D2,
+        #30F2D2 15px,
+        #26c9b1 15px,
+        #26c9b1 30px
+      );
     }
 
     .navbar a {
@@ -36,5 +44,7 @@
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
   </div>
+  <!-- This is the key part that was missing -->
+  {{ content }}
 </body>
 </html>
