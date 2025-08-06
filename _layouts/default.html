@@ -7,7 +7,9 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      /* Background image behind everything */
+      background: url('https://images.alphacoders.com/106/1069635.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
 
     /* Navbar styles */
@@ -49,7 +51,7 @@
       margin-top: 0.1em;
     }
 
-    /* Centered content container (adjusted for lower placement) */
+    /* Centered content container (lower placement) */
     .content {
       display: flex;
       justify-content: center;
@@ -59,7 +61,7 @@
       box-sizing: border-box;
     }
 
-    /* Centered text box (adjusted width & font) */
+    /* Centered text box with semi-transparent background */
     .center-text {
       text-align: center;
       font-family: 'Abril fatface', serif;
@@ -67,9 +69,9 @@
       border: 2px solid #30F2D2;
       padding: 20px 25px;
       border-radius: 12px;
-      background-color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.85); /* transparency for readability */
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      max-width: 550px; /* narrower width */
+      max-width: 550px;
       line-height: 1.4em;
     }
   </style>
