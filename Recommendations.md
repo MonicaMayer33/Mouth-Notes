@@ -6,7 +6,7 @@ permalink: /Recommendations/
 
 <style>
   body {
-    background: url('https://cdn.wallpapersafari.com/65/76/aU2Jeq.jpg') no-repeat center center fixed;
+    background: url('https://images2.alphacoders.com/132/thumb-1920-1323335.jpeg') no-repeat center center fixed;
     background-size: cover;
   }
 </style>
