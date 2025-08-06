@@ -6,7 +6,7 @@ permalink: /Research/
 
 <style>
   body {
-    background: url('https://bing.gifposter.com/bingImages/NingalooShark_EN-US2673625094_uhd.jpg') no-repeat center center fixed;
+    background: url('https://images.alphacoders.com/101/1019011.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 </style>
