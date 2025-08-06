@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       font-family: 'Abril Fatface', serif;
-      /* Background image behind everything */
       background: url('https://images.alphacoders.com/106/1069635.jpg') no-repeat center center fixed;
       background-size: cover;
     }
@@ -17,7 +17,7 @@
       background: linear-gradient(90deg, #66ddfa 0%, #06193d 100%);
       padding: 0.8em 1em;
       overflow: hidden;
-      font-family: 'Abril fatface', serif;
+      font-family: 'Abril Fatface', serif;
     }
 
     .navbar a {
@@ -32,6 +32,7 @@
       float: left;
       text-align: center;
       font-size: 0.85em;
+      font-family: 'Abril Fatface', serif;
     }
 
     .navbar a:hover {
@@ -41,7 +42,7 @@
 
     .navbar-right {
       float: right;
-      font-family: 'Abril fatface', sans-serif;
+      font-family: 'Abril Fatface', serif;
       font-size: 1.3em;
       color: white;
       padding: 0.25em 0.7em;
@@ -51,27 +52,41 @@
       margin-top: 0.1em;
     }
 
-    /* Centered content container (lower placement) */
+    /* Centered content container (main box) */
     .content {
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      height: calc(100vh - 70px); /* space for navbar */
-      padding-top: 120px; /* lowers box */
+      height: calc(100vh - 70px);
+      padding-top: 120px;
       box-sizing: border-box;
     }
 
-    /* Centered text box with semi-transparent background */
     .center-text {
       text-align: center;
-      font-family: 'Abril fatface', serif;
+      font-family: 'Abril Fatface', serif;
       font-size: 1.4em;
       border: 2px solid #66ddfa;
       padding: 20px 25px;
       border-radius: 12px;
-      background-color: rgba(255, 255, 255, 0.85); /* transparency for readability */
+      background-color: rgba(255, 255, 255, 0.85);
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       max-width: 550px;
+      line-height: 1.4em;
+    }
+
+    /* NEW: Lower, slightly wider text box */
+    .lower-text-box {
+      text-align: center;
+      font-family: 'Abril Fatface', serif;
+      font-size: 1.4em;
+      border: 2px solid #66ddfa;
+      padding: 20px 25px;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.85);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: 100px auto 0 auto; /* lower on the page */
       line-height: 1.4em;
     }
   </style>
@@ -90,6 +105,11 @@
       This page will serve as a personal journal and a resource for those passionate about their oral health. From exploring different kinds of toothpaste, mouthwash, and viral trends, to sharing my dental school notes. This is where I will track new discoveries and uncover misconceptions!
     </div>
   </div>
+
+  <!-- NEW LOWER TEXT BOX — write your second message here -->
+<div class="lower-text-box">
+  <strong>Disclaimer:</strong> I am not a licensed dentist, and the content on this site is not endorsed by any professional organization. Everything shared here is for personal use and enjoyment only. If you are experiencing pain, discomfort, or have any oral health concerns, please consult a licensed dental professional.
+</div>
 
   {{ content }}
 </body>
