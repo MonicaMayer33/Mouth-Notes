@@ -6,7 +6,7 @@ permalink: /Notes/
 
 <style>
   body {
-    background: url('https://w0.peakpx.com/wallpaper/104/938/HD-wallpaper-penguin-bird-swim-water-underwater-world.jpg') no-repeat center center fixed;
+    background: url('https://wallpapercave.com/wp/wp11748718.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 </style>
