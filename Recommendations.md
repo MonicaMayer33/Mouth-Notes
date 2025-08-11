@@ -23,8 +23,11 @@ permalink: /Recommendations/
   }
   .pill:hover { transform: translateY(-1px); }
   section.rec-block {
-    max-width: 1100px; margin: 80px auto; padding: 18px 20px;
-    background: rgba(255,255,255,.88); border-radius: 16px;
+    max-width: 95%; /* widened box */
+    margin: 80px auto;
+    padding: 18px 20px;
+    background: rgba(255,255,255,.88);
+    border-radius: 16px;
   }
   .anchor-target { scroll-margin-top: 110px; }
 </style>
